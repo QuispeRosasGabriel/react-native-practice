@@ -1,12 +1,12 @@
 import React from 'react';
 import {View, Text} from 'react-native';
 
-const Loading = ({user}) => {
+const Restaurants = () => {
   return (
     <View>
-      <Text>Loading {user}</Text>
+      <Text>Estamos en Restaunrates</Text>
     </View>
   );
 };
 
-export default Loading;
+export default Restaurants;
