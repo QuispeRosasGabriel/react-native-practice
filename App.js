@@ -1,12 +1,5 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- * @flow strict-local
- */
-
 import React, {useState, useEffect} from 'react';
+import Navigation from './app/navigations/Navigation';
 import {Button, Icon} from 'react-native-elements';
 import {
   //   SafeAreaView,
@@ -26,23 +19,7 @@ import {
 } from 'react-native/Libraries/NewAppScreen';
 
 const App: () => React$Node = () => {
-  return (
-    <>
-      <Text>Restaurante 5 tenedores</Text>
-      <Button
-        title="Outline button"
-        type="outline"
-        icon={
-          <Icon
-            type="material-community"
-            name="check-outline"
-            color="white"
-            size={15}
-          />
-        }
-      />
-    </>
-  );
+  return <Navigation />;
 };
 
 // const styles = StyleSheet.create({
